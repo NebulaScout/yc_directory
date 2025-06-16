@@ -14,11 +14,11 @@ const SearchFormReset = () => {
   };
 
   return (
-    <Button type="reset" onClick={reset} className="search-btn text-white">
-      <Link href="/">
+    <Link href="/">
+      <Button type="reset" onClick={reset} className="search-btn text-white">
         <X className="size-5" />
-      </Link>
-    </Button>
+      </Button>
+    </Link>
   );
 };
 
